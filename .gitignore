@@ -1,0 +1,3 @@
+*.bak
+apihashes_search/__pycache__
+apihashes_search/__pycache__/*
