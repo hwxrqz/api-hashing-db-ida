@@ -1,6 +1,6 @@
 # api-hashing-db-ida
 
-Plugin for IDA Pro (compatible with IDA Pro 9.2) is created to resolve API Hashing automaticaly. Plugin includes binary database that conaings all exports of dlls used in malware and hashes for 3 algorithms.
+Plugin for IDA Pro (compatible with IDA Pro 9.2) is created to resolve API Hashing automaticaly. Plugin includes binary database that contains all exports of dlls used in malware and hashes for 3 algorithms.
 
 # Usage
 
