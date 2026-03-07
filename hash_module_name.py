@@ -3,18 +3,15 @@ def ApiHash(name):
     position = 0
     
     for char in name:
-        # Преобразование символа в нижний регистр (как в C++ коде)
         char_code = ord(char)
         if char_code < ord('a'):
             char_code += 32
         
-        # Вычисление temp в зависимости от четности position
         if position & 1:
             temp = ~(char_code ^ (hash_value >> 3) ^ (hash_value << 9)) & 0xFFFFFFFF
         else:
             temp = char_code ^ (hash_value >> 1) ^ (32 * hash_value)
         
-        # Обновление hash_value
         hash_value = (hash_value ^ temp) & 0xFFFFFFFF
         position += 1
     
