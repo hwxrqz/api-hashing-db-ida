@@ -28,6 +28,7 @@ Script includes functionality of ```pack_hashes_to_raw_bin.py``` and ```compress
 ```python script.py [--update] input.txt output.bin [--compress]```
 2. Compress file only:
 ```python script.py --compress input.bin output.bin```
+
 **Options:**
 
 ```--update```     Update existing database (only for database creation)
