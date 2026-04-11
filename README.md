@@ -35,7 +35,7 @@ Script includes functionality of ```pack_hashes_to_raw_bin.py``` and ```compress
 
 ```--compress```   Compress output file after database creation
 
-**How binary storage works**
+# How binary storage works
 
 Scheme of binary storage:
 ![binary storage](binary_storage.png)
