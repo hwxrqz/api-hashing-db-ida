@@ -40,4 +40,4 @@ Script includes functionality of ```pack_hashes_to_raw_bin.py``` and ```compress
 Scheme of binary storage:
 ![binary storage](binary_storage.png)
 
-*That scheme shows binary storage structure before it will be compressed with zlib. You can check structure of your own binary storage after using ```pack_hashes_to_raw_bin.py``` script
+*That scheme shows a binary storage structure before it will be compressed with zlib. You can check structure of your own binary storage after using ```pack_hashes_to_raw_bin.py``` script
